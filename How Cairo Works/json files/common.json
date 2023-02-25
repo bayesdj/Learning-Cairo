@@ -1,0 +1,625 @@
+{
+    "attributes": [],
+    "builtins": [
+        "pedersen"
+    ],
+    "data": [
+        "0x400380007ffb7ffc",
+        "0x400380017ffb7ffd",
+        "0x480280027ffb8000",
+        "0x482680017ffb8000",
+        "0x3",
+        "0x48127ffe7fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x480a7ffd7fff8000",
+        "0x480680017fff8000",
+        "0x1",
+        "0x480680017fff8000",
+        "0x2",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff5",
+        "0x48127ffe7fff8000",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 19,
+                    "}_line": 6,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 6
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 23,
+                    "}_line": 7,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 7
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 30,
+                    "}_line": 10,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 18,
+                    "start_line": 10
+                }
+            },
+            "3": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2,
+                        "__main__.hash2.z1": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 34,
+                    "}_line": 11,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 22,
+                    "start_line": 11
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2,
+                        "__main__.hash2.z1": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 15,
+                    "}_line": 10,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "}_col": 40,
+                            "}_line": 11,
+                            "input_file": {
+                                "filename": "builtin05.cairo"
+                            },
+                            "start_col": 38,
+                            "start_line": 11
+                        },
+                        "While expanding the reference 'z1' in:"
+                    ],
+                    "start_col": 13,
+                    "start_line": 10
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.hash2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.hash2.hash_ptr": 0,
+                        "__main__.hash2.x": 1,
+                        "__main__.hash2.y": 2,
+                        "__main__.hash2.z1": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 41,
+                    "}_line": 11,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 11
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 23,
+                    "}_line": 14,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "}_col": 58,
+                            "}_line": 15,
+                            "input_file": {
+                                "filename": "builtin05.cairo"
+                            },
+                            "start_col": 46,
+                            "start_line": 15
+                        },
+                        "While expanding the reference 'pedersen_ptr' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 14
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 63,
+                    "}_line": 15,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 62,
+                    "start_line": 15
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 68,
+                    "}_line": 15,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 67,
+                    "start_line": 15
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 69,
+                    "}_line": 15,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 29,
+                    "start_line": 15
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 5,
+                        "__main__.main.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 22,
+                    "}_line": 15,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "}_col": 23,
+                            "}_line": 14,
+                            "input_file": {
+                                "filename": "builtin05.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "}_col": 13,
+                                    "}_line": 16,
+                                    "input_file": {
+                                        "filename": "builtin05.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 16
+                                },
+                                "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
+                            ],
+                            "start_col": 11,
+                            "start_line": 14
+                        },
+                        "While expanding the reference 'pedersen_ptr' in:"
+                    ],
+                    "start_col": 10,
+                    "start_line": 15
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 9
+                    },
+                    "reference_ids": {
+                        "__main__.main.pedersen_ptr": 5,
+                        "__main__.main.z": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "}_col": 13,
+                    "}_line": 16,
+                    "input_file": {
+                        "filename": "builtin05.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 16
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.hash2": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "__main__.hash2.Args": {
+            "full_name": "__main__.hash2.Args",
+            "members": {
+                "hash_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "x": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "y": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "__main__.hash2.ImplicitArgs": {
+            "full_name": "__main__.hash2.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.hash2.Return": {
+            "cairo_type": "(hash_ptr : felt, z : felt)",
+            "type": "type_definition"
+        },
+        "__main__.hash2.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.hash2.hash_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash2.hash_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash2.x": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash2.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash2.y": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash2.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.hash2.z1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.hash2.z1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "pc": 3,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 7,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {
+                "pedersen_ptr": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.pedersen_ptr": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.pedersen_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "[cast(fp + (-3), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "pc": 14,
+                    "value": "[cast(ap + (-2), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.z": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.z",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 8
+                    },
+                    "pc": 14,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 1
+                },
+                "pc": 3,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 8
+                },
+                "pc": 14,
+                "value": "[cast(ap + (-2), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 8
+                },
+                "pc": 14,
+                "value": "[cast(ap + (-1), felt*)]"
+            }
+        ]
+    }
+}
